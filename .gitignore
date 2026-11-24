@@ -1,1 +1,3 @@
-na6plist.egg-info/
+na6pdist.egg-info/
+__pycache__/
+*.py[cod]
