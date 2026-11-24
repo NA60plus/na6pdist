@@ -1,5 +1,5 @@
 [project]
-name = "na6plist"
+name = "na6pdist"
 version = "0.1.0"
 description = "NA60plus build tool wrapper (na6pbuild)"
 readme = "README.md"
@@ -8,4 +8,4 @@ authors = [ { name = "NA60plus" } ]
 dependencies = []
 
 [project.scripts]
-na6pbuild = "na6plist.cli:main"
+na6pbuild = "na6pdist.cli:main"

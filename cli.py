@@ -48,7 +48,7 @@ DISTRO_VERSION = OS_RELEASE.get("VERSION_ID", "unknown")
 
 
 def ensure_supported_platform():
-    """Check that the current platform is supported by na6plist."""
+    """Check that the current platform is supported by na6pdist."""
     if SYSTEM == "Darwin":
         return
 

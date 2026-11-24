@@ -106,13 +106,13 @@ geant4 ────────────────────────�
 Override any version on the command line:
 
 ```bash
-python3 na6plist/na6pbuild build --root-version 6.30.06 na6proot
+python3 na6pdist/na6pbuild build --root-version 6.30.06 na6proot
 ```
 
 or via environment variables:
 
 ```bash
-ROOT_VERSION=6.30.06 python3 na6plist/na6pbuild build na6proot
+ROOT_VERSION=6.30.06 python3 na6pdist/na6pbuild build na6proot
 ```
 
 ---
@@ -133,7 +133,7 @@ ROOT_VERSION=6.30.06 python3 na6plist/na6pbuild build na6proot
 
 ## Recipes
 
-Each package has a shell recipe in `na6plist/recipes/<pkg>.sh`. A recipe receives:
+Each package has a shell recipe in `na6pdist/recipes/<pkg>.sh`. A recipe receives:
 
 | Variable | Description |
 |----------|-------------|
